@@ -134,6 +134,20 @@ Installation of Python dependencies can be handled in two ways:
         pipenv install
         pipenv shell
 
+## Docker
+
+Install docker and build image via
+
+```
+docker build . -t pp-p2p-parser
+```
+
+Use script to generate csv via, e.g.\
+
+```
+./dockerize.sh mintos src/test/testdata/mintos.csv
+```
+
 ## Legal
 
 I'm not a lawyer. This project is in no way affiliated with
